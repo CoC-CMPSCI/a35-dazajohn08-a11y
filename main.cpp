@@ -21,9 +21,9 @@ int main()
     // TODO: compute the total summation
 total = rdnum1 + rdnum2 + rdnum3;
     // TODO: print the 3 random numbers on the first line
-cout << "Line 1 has " << rdnum1 << " " << rdnum2 << " " << rdnum3 << " integers" <<endl;
-cout << "Line 2 has " << total << " " << total / 3 << endl;
+    cout << rdnum1 << " " << rdnum2 << " " << rdnum3 << endl;
     // TODO: print the total and average (integer division) on the second line
+    cout << total << " " << total / 3 << endl;
 
     return 0;
 }
